@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Shop</title>
+
+    <!--Bootstrap CDN-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!--Owl Carousel-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--Custom CSS file-->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <!-- Header -->
+    <header id="header">
+        <div class="strip d-flex justify-content-between px-4 py-1 bg-light">
+            <p class="font-lato font-size-20 text-black-50 m-0">calebthecurious Melbourne, Australia (+61) 451 122 895</p>
+            <div class="font-rale font-size-14">
+                <a href="" class="px-3 border-right border-left text-dark">Login</a>
+                <a href="" class="px-3 border-righ text-dark">Wishlist (0)</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- NavBar-->
+    <nav class="navbar navbar-expand-lg navbar-dark color-second-bg">
+        <a class="navbar-brand" href="#">Myshop</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav m-auto font-rubik">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">On Sale</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Products <i class="fas fa-chevron-down"></i><i class="fas fa-chevron-down"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Category <i class="fas fa-chevron-down"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Feeling Lucky</a>
+                </li>
+            </ul>
+            <form action="#" class="font-size-14 font-rale">
+                <a href="#" class="py-2 rounded-pill color-primary-bg">
+                    <span class="font-size-16 px-2 text-white"><i class="fas fa-shopping-cart"></i></span>
+                    <span class="px-3 py-2 rounded-pill text-dark bg-light">0</span>
+                </a>
+            </form>
+        </div>
+    </nav>
+
+    <!-- Owl Carousel -->
+    <section id="banner-area">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img src="./images/Cosy_Banner_1440x.gif" alt="Banner1" >
+            </div>
+            <div class="item">
+                <img src="./images/sassy-banner_2200x.jpg" alt="Banner1">
+            </div>
+            <div class="item">
+                <img src="./images/dd68_banner_1200.png" alt="Banner1">
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Site -->
+<main id="main-site">
+
+    <!-- Owl-Carousel -->
+    <section id="banner-area">
+    </section>
+
+    <!-- Top Sale -->
+    <section id="best-sellers">
+        <div class="container py-5">
+            <h4 class="font-rubik font-size-20">Best Sellers</h4>
+            <hr>
+
+    <!-- owl carousel -->
+    <div class="owl-carousel owl-theme">
+        <div class="item py-2">
+            <div class="product font-rale">
+                <a href="#"><img src="./images/MOCK_900x.png" alt=""></a>
+                <div class="text-center">
+                    <h6>Hoodie</h6>
+                    <div class="rating text-warning font-size-12">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="price py-2">
+                        <span>$89</span>
+                    </div>
+                    <button id="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="product font-rale">
+            <a href="#"><img src="./images/MOCK_c7daae4b-3236-408e-8c00-1fc0f43c7561_360x.png" alt=""></a>
+            <div class="text-center">
+                <h6>Pants</h6>
+                <div class="rating text-warning font-size-12">
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                </div>
+                <div class="price py-2">
+                    <span>$69</span>
+                </div>
+                <button id="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+        <div class="item py-2">
+            <div class="product font-rale">
+                <a href="#"><img src="./images/WEBMOCK._45b23549-b401-42d7-8cb9-38a0e36265b0_360x.png" alt=""></a>
+                <div class="text-center">
+                    <h6>T-shirt</h6>
+                    <div class="rating text-warning font-size-12">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="price py-2">
+                        <span>$59</span>
+                    </div>
+                    <button id="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+        <div class="item py-2">
+            <div class="product font-rale">
+                <a href="#"><img src="./images/WEBMOCK_cfa6d633-2f6e-455c-a8ab-af58e376102d_360x.png" alt=""></a>
+                <div class="text-center">
+                    <h6>T-shirt</h6>
+                    <div class="rating text-warning font-size-12">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="price py-2">
+                        <span>$59</span>
+                    </div>
+                    <button id="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+        <div class="item py-2">
+            <div class="product font-rale">
+                <a href="#"><img src="./images/WEBMOCK._8c91d83d-cfab-4e49-995e-82543413d960_360x.png" alt=""></a>
+                <div class="text-center">
+                    <h6>T-shirt</h6>
+                    <div class="rating text-warning font-size-12">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="price py-2">
+                        <span>$59</span>
+                    </div>
+                    <button id="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+        
+        </div>
+    </section>
+
+
+</main>
+
+
+    <!-- Footer -->
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+        <!-- Owl Carousel Js file-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="./index.js"></script>
+
+</body>
+</html>
